@@ -1,11 +1,29 @@
-$main-color : #FF3E01;
-$secondary-color : #D79EDD;
-$light-color : #F7EFE2;
+$main-color: #ff3e01;
+$secondary-color: #d79edd;
+$light-color: #f7efe2;
 
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Inter', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
 }
- 
-  
+
+.button-fill,
+.button-stroke {
+  cursor: pointer;
+  border: none;
+  padding: .75rem 2.25rem;
+  font-weight: 800;
+  border-radius: 10px;
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+}
+
+.button-fill {
+  background: $secondary-color;
+  color: $light-color;
+}
+.button-stroke {
+  background: $light-color;
+  color: $secondary-color;
+}
