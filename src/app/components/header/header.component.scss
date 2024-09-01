@@ -9,18 +9,14 @@ section {
   position: relative;
   width: 100%;
   overflow: hidden;
-  
-  .divider {
-    width: 100%;
-    background: $secondary-color;
-    text-align: center;
-    padding: 0.5rem 0;
-    
-    h1 {
-      color: $light-color;
-      font-family: "Paytone One", sans-serif;
-      font-weight: 400;
-    }
+
+  h1 {
+    color: $main-color;
+    font-weight: 400;
+  }
+  h2{
+    color: $light-color;
+    font-weight: 400;
   }
 }
 
@@ -33,11 +29,11 @@ section {
   width: auto;
   padding: 5rem;
   overflow: hidden;
-  
+
   .logo {
     width: 60%;
   }
-  
+
   &::before,
   &::after {
     content: url("../../../../public/assets/orange_star.png");
@@ -45,11 +41,11 @@ section {
     position: absolute;
     top: -550px;
   }
-  
+
   &::before {
     left: -100px;
   }
-  
+
   &::after {
     right: -100px;
   }
@@ -64,32 +60,32 @@ section {
   padding: 5rem 2rem;
   gap: 10rem;
   z-index: 100;
-  
+
   .bottom-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 30%;
     gap: 2rem;
-    
+
     h3 {
       font-size: 2rem;
       color: $light-color;
       font-family: "Paytone One", sans-serif;
       font-weight: 400;
     }
-    
+
     p {
       font-size: 1.25rem;
     }
   }
-  
+
   .img-container {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     width: 30%;
-    
+
     img {
       width: 100%;
     }
@@ -102,11 +98,11 @@ section {
     &::after {
       transform: scale(0.3);
     }
-    
+
     &::before {
       left: -200px;
     }
-    
+
     &::after {
       right: -200px;
     }
@@ -120,28 +116,28 @@ section {
       left: -500px;
       top: -500px;
     }
-    
+
     &::after {
       display: none;
     }
   }
-  
+
   .bottom {
     padding: 3rem 2rem;
     gap: 5rem;
-    
+
     .bottom-content {
       width: 50%;
-      
+
       h3 {
         font-size: 1.5rem;
       }
-      
+
       p {
         font-size: 1rem;
       }
     }
-    
+
     .img-container .stripes {
       width: 40%;
     }
@@ -159,7 +155,7 @@ section {
       left: -500px;
       top: -500px;
     }
-    
+
     &::after {
       display: block;
       transform: scale(0.2);
@@ -167,22 +163,22 @@ section {
       top: -180px;
     }
   }
-  
+
   .divider {
     z-index: 100;
   }
-  
+
   .bottom {
     flex-direction: column;
     text-align: center;
     padding: 1.5rem;
     width: auto;
-    
+
     .bottom-content {
       width: 100%;
       align-items: center;
     }
-    
+
     .img-container {
       width: 70%;
     }
@@ -194,32 +190,32 @@ section {
     align-items: inherit;
     text-align: end;
     padding: 3rem;
-    
+
     .logo {
       width: 100%;
       align-self: flex-end;
     }
-    
-    h2 {
+
+    h1 {
       text-align: center;
       font-size: 18px;
     }
-    
+
     &::before {
       transform: scale(0.125);
       left: -520px;
       top: -520px;
     }
-    
+
     &::after {
       transform: scale(0.125);
       right: -510px;
       top: -190px;
     }
   }
-  
+
   .divider {
-    h1 {
+    h2 {
       font-size: 18px;
     }
   }

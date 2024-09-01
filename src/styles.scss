@@ -19,7 +19,13 @@ $light-color: #f7efe2;
   font-family: "Paytone One", sans-serif;
   font-weight: 400;
 }
-
+.divider {
+  width: 100%;
+  background: $secondary-color;
+  text-align: center;
+  padding: 0.5rem 0;
+  
+}
 .button-fill {
   background: $secondary-color;
   color: $light-color;
