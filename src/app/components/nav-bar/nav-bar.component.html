@@ -1,9 +1,18 @@
-<section>
-    <img src="" alt="">
-    <div class="right-side">
+<section >
+  <img src="/assets/logo_sm.png" alt="logo la Majuscule" />
+  <div class="right-side">
+    <div>Services</div>
+    <div>Présentation</div>
+    <div>A propos</div>
+    <div>Contact</div>
+  </div>
+  <img class="burger" src="/assets/burger_menu.svg" alt="" (click)="toggleMobile()"/>
+  @if (isMobile) {
+      <div class="nav-mobile">
+        <div>Home</div>
+        <div>About</div>
         <div>Services</div>
-        <div>Présentation</div>
-        <div>A propos</div>
         <div>Contact</div>
-    </div>
+      </div>
+  }
 </section>
