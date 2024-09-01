@@ -4,6 +4,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { VioletStarComponent } from './components/violet-star/violet-star.component';
 import { CommunicationComponent } from './components/communication/communication.component';
+import { BenefitsComponent } from './components/benefits/benefits.component';
 
 @Component({
   selector: 'app-root',
@@ -12,8 +13,8 @@ import { CommunicationComponent } from './components/communication/communication
     RouterOutlet,
     HeaderComponent,
     NavBarComponent,
-    VioletStarComponent,
     CommunicationComponent,
+    BenefitsComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
@@ -24,5 +25,13 @@ export class AppComponent {
     'Rédaction web',
     'Réseaux sociaux',
     'Photos et vidéos',
+  ]
+  benefitsContents : string[] = [
+    'Expertise',
+    'Gain de temps',
+    'Regard extérieur',
+    'Cohérence et qualité',
+    'Optimisation',
+    'Diversité de contenus',
   ]
 }
