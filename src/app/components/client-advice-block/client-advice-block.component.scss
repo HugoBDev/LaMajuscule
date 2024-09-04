@@ -1,0 +1,15 @@
+@import "../../../styles.scss";
+
+.client-advice-block {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  background: $secondary-color;
+  color: $light-color;
+  border-radius: 10px;
+  align-items: center;
+  p {
+    font-family: "Inter", sans-serif;
+  }
+}

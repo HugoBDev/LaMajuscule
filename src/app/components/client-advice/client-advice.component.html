@@ -1,0 +1,22 @@
+<section>
+  <div class="left-side">
+    <header>
+      <span>5/5</span>
+      <h2>SATSIFACTION CLIENT *</h2>
+      <div class="divider-sm"></div>
+    </header>
+    <p class="content">
+      La collaboration est au cœur de notre méthodologie de travail. Nous
+      valorisons et intégrons vos retours à chaque étape du processus,
+      garantissant ainsi que le résultat final dépasse vos attentes. Notre
+      engagement à respecter les délais tout en maintenant une haute qualité de
+      contenu est la pierre angulaire de notre promesse envers vous.
+      <span>*Selon les avis Google déposés.</span>
+    </p>
+  </div>
+  <div class="right-side">
+    @for(content of contents ; track content){
+    <app-client-advice-block [content]="content"></app-client-advice-block>
+    }
+  </div>
+</section>
