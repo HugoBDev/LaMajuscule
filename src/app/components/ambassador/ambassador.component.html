@@ -1,0 +1,8 @@
+<section>
+    <h2>NOS AMBASSADEURS</h2>
+    <div class="ambassadors-container">
+        @for(ambassador of ambassadors; track ambassador){
+            <app-ambassador [ambassador]="ambassador"></app-ambassador>
+        }
+    </div>
+</section>
