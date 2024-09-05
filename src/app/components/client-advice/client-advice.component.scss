@@ -7,14 +7,7 @@ section {
   background: $light-color;
   padding: 4rem;
   justify-content: space-between;
-  overflow: hidden;
-  &::before {
-    content: url("../../../../public/assets/orange_star.png");
-    position: absolute;
-    transform: scale(0.2);
-    right: -32rem;
-    bottom: -32rem;
-  }
+  
   .left-side {
     display: flex;
     flex-direction: column;

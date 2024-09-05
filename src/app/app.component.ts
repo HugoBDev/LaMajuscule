@@ -8,6 +8,8 @@ import { BenefitsComponent } from './components/benefits/benefits.component';
 import { ClientAdviceBlockProps } from './components/client-advice-block/client-advice-block.component';
 import { ClientAdviceComponent } from "./components/client-advice/client-advice.component";
 
+import { AmbassadorComponent } from './components/ambassador/ambassador.component';
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -17,7 +19,8 @@ import { ClientAdviceComponent } from "./components/client-advice/client-advice.
     NavBarComponent,
     CommunicationComponent,
     BenefitsComponent,
-    ClientAdviceComponent
+    ClientAdviceComponent,
+    AmbassadorComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

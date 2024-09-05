@@ -1,8 +1,25 @@
 <section>
     <h2>NOS AMBASSADEURS</h2>
-    <div class="ambassadors-container">
-        @for(ambassador of ambassadors; track ambassador){
-            <app-ambassador [ambassador]="ambassador"></app-ambassador>
-        }
-    </div>
+    <p-carousel  
+        [value]="ambassadors" 
+        [numVisible]="3" 
+        [numScroll]="3" 
+        [circular]="true" 
+        [responsiveOptions]="responsiveOptions"
+        [showIndicators]="false"
+        [scrollLeft]="true"
+        class="carousel">
+            <ng-template let-ambassador pTemplate="item" class="carousel">
+                <div class="item-container">
+                    <div class="mb-3">
+                        <div class="relative mx-auto">
+                            <img 
+                                src="{{ ambassador.image }}" 
+                                [alt]="ambassador.name" 
+                                class="w-full border-round" />
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+    </p-carousel>
 </section>
