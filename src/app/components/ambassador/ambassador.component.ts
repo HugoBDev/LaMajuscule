@@ -60,17 +60,22 @@ export class AmbassadorComponent {
 
     this.responsiveOptions = [
       {
-        breakpoint: '1360px',
+        breakpoint: '1560px',
         numVisible: 3,
         numScroll: 2,
       },
       {
         breakpoint: '990px',
+        numVisible: 3,
+        numScroll: 1,
+      },
+      {
+        breakpoint: '740px',
         numVisible: 2,
         numScroll: 1,
       },
       {
-        breakpoint: '540px',
+        breakpoint: '570px',
         numVisible: 1,
         numScroll: 1,
       },
