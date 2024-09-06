@@ -1,5 +1,23 @@
 @import "../../../styles.scss";
 
+@keyframes logoInit {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes textInit {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 section {
   display: flex;
   flex-direction: column;
@@ -31,7 +49,11 @@ section {
   overflow: hidden;
 
   .logo {
+    animation:logoInit 1.5s linear;
     width: 60%;
+  }
+  h1{
+    animation: textInit 1.5s linear;
   }
 
   &::before,
@@ -181,6 +203,9 @@ section {
 
     .img-container {
       width: 70%;
+      .stripes{
+        display: none;
+      }
     }
   }
 }

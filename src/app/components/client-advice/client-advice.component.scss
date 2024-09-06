@@ -56,7 +56,6 @@ section {
 @media screen and (max-width: 850px) {
   section {
     width: auto;
-    padding: auto;
     align-items: center;
     flex-direction: column;
     .left-side,
@@ -68,6 +67,7 @@ section {
 
 @media screen and (max-width: 425px) {
   section {
+    padding: 2rem;
     .left-side {
       header {
         h2,

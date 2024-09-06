@@ -36,10 +36,20 @@ body{
 .button-fill {
   background: $secondary-color;
   color: $light-color;
+  border: 2px solid $secondary-color;
+  &:hover {
+    color: $secondary-color;
+    background: $light-color;
+  }
 }
 .button-stroke {
   background: $light-color;
   color: $secondary-color;
+  border: 2px solid $light-color;
+  &:hover {
+    color: $light-color;
+    background: $secondary-color;
+  }
 }
 
 .p-carousel-container {
