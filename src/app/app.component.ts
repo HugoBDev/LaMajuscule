@@ -10,6 +10,7 @@ import { ClientAdviceComponent } from "./components/client-advice/client-advice.
 
 import { AmbassadorComponent } from './components/ambassador/ambassador.component';
 import { PresentationComponent } from './components/presentation/presentation.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -22,7 +23,8 @@ import { PresentationComponent } from './components/presentation/presentation.co
     BenefitsComponent,
     ClientAdviceComponent,
     AmbassadorComponent,
-    PresentationComponent
+    PresentationComponent,
+    FooterComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
