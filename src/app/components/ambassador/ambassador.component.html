@@ -1,25 +1,27 @@
 <section>
-    <h2>NOS AMBASSADEURS</h2>
-    <p-carousel  
-        [value]="ambassadors" 
-        [numVisible]="4" 
-        [numScroll]="3" 
-        [circular]="true" 
-        [responsiveOptions]="responsiveOptions"
-        [showIndicators]="false"
-        [scrollLeft]="true"
-        class="carousel">
-            <ng-template let-ambassador pTemplate="item" class="carousel">
-                <div class="item-container">
-                    <div class="mb-3">
-                        <div class="relative mx-auto">
-                            <img 
-                                src="{{ ambassador.image }}" 
-                                [alt]="ambassador.name" 
-                                class="w-full border-round" />
-                        </div>
-                    </div>
-                </div>
-            </ng-template>
-    </p-carousel>
+  <h2>NOS AMBASSADEURS</h2>
+  <p-carousel
+    [value]="ambassadors"
+    [numVisible]="4"
+    [numScroll]="3"
+    [circular]="true"
+    [responsiveOptions]="responsiveOptions"
+    [showIndicators]="false"
+    [scrollLeft]="true"
+    class="carousel"
+  >
+    <ng-template let-ambassador pTemplate="item" class="carousel">
+      <div class="item-container">
+        <div class="mb-3">
+          <div class="relative mx-auto">
+            <img
+              src="{{ ambassador.image }}"
+              [alt]="ambassador.name"
+              class="w-full border-round"
+            />
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </p-carousel>
 </section>

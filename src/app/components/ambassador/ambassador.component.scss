@@ -19,7 +19,6 @@ section {
     right: -32rem;
     top: -32rem;
     z-index: 10; /* Optionnel : Ajuste si nécessaire pour qu'il apparaisse derrière d'autres éléments */
-
   }
 }
 
@@ -49,8 +48,8 @@ img {
 @media screen and (max-width: 990px) {
   section {
     padding: 2rem 0;
-    h2{
-        font-size: 32px;
+    h2 {
+      font-size: 32px;
     }
   }
   .item-container {
@@ -58,9 +57,9 @@ img {
   }
 }
 @media screen and (max-width: 600px) {
-    section{
-        &::after{
-            transform: scale(0.1);
-        }
+  section {
+    &::after {
+      transform: scale(0.1);
     }
+  }
 }
