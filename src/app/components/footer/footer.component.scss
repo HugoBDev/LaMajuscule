@@ -43,6 +43,7 @@ section {
         display: flex;
         gap: 2rem;
         align-items: center;
+
         a:link, a:visited {
           color: #000000; /* Par exemple, du noir */
           text-decoration: none;
@@ -62,7 +63,7 @@ section {
   }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 680px) {
   section {
     .up-side {
       flex-direction: column;
